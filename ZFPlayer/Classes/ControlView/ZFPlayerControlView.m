@@ -428,7 +428,7 @@
 
 /// 准备播放
 - (void)videoPlayer:(ZFPlayerController *)videoPlayer prepareToPlay:(NSURL *)assetURL {
-    [self hideControlViewWithAnimated:NO];
+    // [self hideControlViewWithAnimated:NO];
 }
 
 /// 播放状态改变
